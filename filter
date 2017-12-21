@@ -1,0 +1,6 @@
+<AppContainer>
+  [ <Category />, ...]
+  [<Filter />, ...]
+  <ActiveFilter />
+  <Actions />
+</AppContainer>
