@@ -6,10 +6,10 @@ export default {
         name: 'Micro-Coax', 
         active: false,
         filters: {
-          series: [],
+          series: ['Novastack'],
           pitch: [],
           height: [],
-          mating: []
+          mating: ['Right Angle', 'Horizontal']
         }
       }, 
       {
