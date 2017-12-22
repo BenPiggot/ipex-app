@@ -16,7 +16,7 @@ class Filter extends Component {
         <div onClick={() => this.props.setActiveFilter(this.props.name)}>
           {this.props.name}
         </div>
-        <div>
+        <div className="active-options">
         {
           this.props.filters[this.props.name].map(option => {
             if (option.active) {

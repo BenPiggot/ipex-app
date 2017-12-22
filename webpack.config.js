@@ -1,4 +1,8 @@
 const path = require("path");
+const webpack = require('webpack');
+const { getIfUtils, removeEmpty } = require('webpack-config-utils')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { ifProduction, ifDevelopment } = getIfUtils(process.env.NODE_ENV);
 
 module.exports = {
   entry: './src/index',
@@ -22,9 +26,13 @@ module.exports = {
         }
       },
       {
-        test: /\.css$/,
-        loader: 'style-loader!css-loader'
+        test: /\.s?css$/,
+        loader: 'style-loader!css-loader!sass-loader'
       }
     ]
-  }
+  },
+  plugins: removeEmpty([
+    ifProduction(new HtmlWebpackPlugin({ title: 'Tree-shaking' })),
+    ifProduction(new webpack.optimize.UglifyJsPlugin())
+  ])
 }

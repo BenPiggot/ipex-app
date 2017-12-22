@@ -5,6 +5,11 @@
   text-transform: uppercase;
   padding: 10px;
   cursor: pointer;
+  width: 10%;
+}
+
+.active-options {
+  height: 50px;
 }
 
 .selected-option {
