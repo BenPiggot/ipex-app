@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import { updateFilterOption } from '../actions/filters-actions';
+import { updateFilterOption, removeSelectedOption } from '../actions/filters-actions';
 
 import './Filter.css';
 
 class Filter extends Component {
   handleClick = (optionName) => {
-    this.props.updateFilterOption(this.props.name, optionName)
+    this.props.removeSelectedOption(this.props.name, optionName)
   }
 
   render() {
+    console.log(this.props.filters, this.props.name)
     return (
       <div className="filter-header">
         <div onClick={() => this.props.setActiveFilter(this.props.name)}>
@@ -39,8 +40,9 @@ class Filter extends Component {
 }
 
 const mapStateToProps = (state) => {
+  console.log(state.filters.categories)
   return {
-    filters: state.filters
+    filters: state.filters.categories
   }
 }
 
@@ -48,6 +50,9 @@ const mapDispatchToProps = (dispatch) => {
   return {
     updateFilterOption(filterName, optionName) {
       dispatch(updateFilterOption(filterName, optionName))
+    },
+    removeSelectedOption(filterName, optionName) {
+      dispatch(removeSelectedOption(filterName, optionName))
     }
   }
 }

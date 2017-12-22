@@ -47,7 +47,7 @@ class AppContainer extends Component {
 
 const mapStateToProps = (state) => {
   return {
-    filters: state.filters,
+    filters: state.filters.categories,
     products: state.products
   }
 }

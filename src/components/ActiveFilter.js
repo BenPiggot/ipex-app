@@ -37,7 +37,7 @@ class ActiveFilter extends Component {
 
 const mapStateToProps = (state) => {
   return {
-    filters: state.filters
+    filters: state.filters.categories
   }
 }
 
