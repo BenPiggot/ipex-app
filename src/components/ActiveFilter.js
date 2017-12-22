@@ -6,8 +6,10 @@ import { updateFilterOption } from '../actions/filters-actions';
 import './ActiveFilter.css';
 
 class ActiveFilter extends Component {
-  handleClick = (optionName) => {
-    this.props.updateFilterOption(this.props.name, optionName)
+  handleClick = (option) => {
+    if (option.active) {
+      this.props.updateFilterOption(this.props.name, option.name)
+    }
   }
 
   render() {
@@ -21,7 +23,7 @@ class ActiveFilter extends Component {
               <div 
                 className="filter-option-text"
                 style={{ color: color }} 
-                onClick={() => this.handleClick(option.name)}
+                onClick={() => this.handleClick(option)}
               >
                 { option.name }
               </div>

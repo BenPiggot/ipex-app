@@ -7,6 +7,7 @@ export default {
         active: true,
         chosen: false,
         filters: {
+          type: ['Micro-Coax'],
           series: ['Novastack'],
           pitch: [],
           height: [],
@@ -18,6 +19,7 @@ export default {
         active: true,
         chosen: false,
         filters: {
+          type: ['FPC/FFC'],
           series: [],
           pitch: [],
           height: [],
@@ -29,6 +31,7 @@ export default {
         active: true,
         chosen: false,
         filters: {
+          type: ['Micro RF Coax'],
           series: [],
           pitch: [],
           height: [],
@@ -40,6 +43,7 @@ export default {
         active: true,
         chosen: false,
         filters: {
+          type: ['Docking'],
           series: [],
           pitch: [],
           height: [],
@@ -51,6 +55,7 @@ export default {
         active: true,
         chosen: false,
         filters: {
+          type: ['Board-To-Board'],
           series: [],
           pitch: [],
           height: [],
@@ -65,6 +70,7 @@ export default {
         chosen: false,
         filters: {
           type: [],
+          series: ['Novastack'],
           pitch: [],
           height: [],
           mating: []
@@ -76,6 +82,7 @@ export default {
         chosen: false,
         filters: {
           type: [],
+          series: ['MHF'],
           pitch: [],
           height: [],
           mating: []
@@ -87,6 +94,7 @@ export default {
         chosen: false,
         filters: {
           type: [],
+          series: ['ISH'],
           pitch: [],
           height: [],
           mating: []
@@ -98,6 +106,7 @@ export default {
         chosen: false,
         filters: {
           type: [],
+          series: ['Miniflex'],
           pitch: [],
           height: [],
           mating: []
@@ -109,6 +118,7 @@ export default {
         chosen: false,
         filters: {
           type: [],
+          series: ['Cabline'],
           pitch: [],
           height: [],
           mating: []
@@ -120,6 +130,7 @@ export default {
         chosen: false,
         filters: {
           type: [],
+          series: ['FPL'],
           pitch: [],
           height: [],
           mating: []
@@ -134,6 +145,7 @@ export default {
         filters: {
           type: [],
           series: [],
+          pitch: ['0.250 To 1.250'],
           height: [],
           mating: []
         }
@@ -145,6 +157,7 @@ export default {
         filters: {
           type: [],
           series: [],
+          pitch: ['0.175 To 1'],
           height: [],
           mating: []
         }
@@ -156,6 +169,7 @@ export default {
         filters: {
           type: [],
           series: [],
+          pitch: ['1'],
           height: [],
           mating: []
         }
@@ -167,6 +181,7 @@ export default {
         filters: {
           type: [],
           series: [],
+          pitch: ['0.35 To 1'],
           height: [],
           mating: []
         }
@@ -178,6 +193,7 @@ export default {
         filters: {
           type: [],
           series: [],
+          pitch: ['0.4 To 2'],
           height: [],
           mating: []
         }
@@ -192,6 +208,7 @@ export default {
           type: [],
           series: [],
           pitch: [],
+          height: ['0.800 To 9.650'],
           mating: []
         }
       },
@@ -203,6 +220,7 @@ export default {
           type: [],
           series: [],
           pitch: [],
+          height: ['0.55 To 6.3'],
           mating: []
         }
       },
@@ -214,6 +232,7 @@ export default {
           type: [],
           series: [],
           pitch: [],
+          height: ['0.85 To 2.5'],
           mating: []
         }
       },
@@ -236,6 +255,7 @@ export default {
           type: [],
           series: [],
           pitch: [],
+          height: ['0.7 To 1.2'],
           mating: []
         }
       },
@@ -247,6 +267,7 @@ export default {
           type: [],
           series: [],
           pitch: [],
+          height: ['1.1 To 20.75'],
           mating: []
         }
       }
@@ -260,7 +281,8 @@ export default {
           type: [],
           series: [],
           pitch: [],
-          height: []
+          height: [],
+          mating: ['Horizontal']
         }
       },
       {
@@ -271,7 +293,8 @@ export default {
           type: [],
           series: [],
           pitch: [],
-          height: []
+          height: [],
+          mating: ['Vertical']
         }
       },
       {
@@ -282,7 +305,8 @@ export default {
           type: [],
           series: [],
           pitch: [],
-          height: []
+          height: [],
+          mating: ['Right Angle']
         }
       },
       {
@@ -293,7 +317,8 @@ export default {
           type: [],
           series: [],
           pitch: [],
-          height: []
+          height: [],
+          mating: ['Stacking']
         }
       }
     ]
