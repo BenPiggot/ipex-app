@@ -19,7 +19,7 @@ class Filter extends Component {
         <div className="active-options">
         {
           this.props.filters[this.props.name].map(option => {
-            if (option.active) {
+            if (option.chosen) {
               return (
                 <div className="selected-option">
                   {option.name}

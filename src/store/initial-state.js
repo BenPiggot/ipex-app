@@ -4,7 +4,8 @@ export default {
     type: [ 
       { 
         name: 'Micro-Coax', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           series: ['Novastack'],
           pitch: [],
@@ -14,7 +15,8 @@ export default {
       }, 
       {
         name: 'FPC/FFC', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           series: [],
           pitch: [],
@@ -24,7 +26,8 @@ export default {
       },
       {
         name: 'Micro RF Coax', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           series: [],
           pitch: [],
@@ -34,7 +37,8 @@ export default {
       },
       {
         name: 'Docking', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           series: [],
           pitch: [],
@@ -44,7 +48,8 @@ export default {
       },
       {
         name: 'Board-To-Board', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           series: [],
           pitch: [],
@@ -56,7 +61,8 @@ export default {
     series: [
       {
         name: 'Novastack', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           pitch: [],
@@ -66,7 +72,8 @@ export default {
       },
       {
         name: 'MHF', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           pitch: [],
@@ -76,7 +83,8 @@ export default {
       },
       {
         name: 'ISH', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           pitch: [],
@@ -86,7 +94,8 @@ export default {
       },
       {
         name: 'Miniflex', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           pitch: [],
@@ -96,7 +105,8 @@ export default {
       },
       {
         name: 'Cabline', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           pitch: [],
@@ -106,7 +116,8 @@ export default {
       },
       {
         name: 'FPL', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           pitch: [],
@@ -118,7 +129,8 @@ export default {
     pitch: [
       {
         name: '0.250 To 1.250', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           series: [],
@@ -128,7 +140,8 @@ export default {
       },
       {
         name: '0.175 To 1', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           series: [],
@@ -138,7 +151,8 @@ export default {
       },
       {
         name: '1', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           series: [],
@@ -148,7 +162,8 @@ export default {
       },
       {
         name: '0.35 To 1', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           series: [],
@@ -158,7 +173,8 @@ export default {
       },
       {
         name: '0.4 To 2', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           series: [],
@@ -170,7 +186,8 @@ export default {
     height: [
       {
         name: '0.800 To 9.650', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           series: [],
@@ -180,7 +197,8 @@ export default {
       },
       {
         name: '0.55 To 6.3', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           series: [],
@@ -190,7 +208,8 @@ export default {
       },
       {
         name: '0.85 To 2.5', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           series: [],
@@ -200,7 +219,8 @@ export default {
       },
       {
         name: '11.1 To 12.505', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           series: [],
@@ -210,7 +230,8 @@ export default {
       },
       {
         name: '0.7 To 1.2', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           series: [],
@@ -220,7 +241,8 @@ export default {
       },
       {
         name: '1.1 To 20.75', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           series: [],
@@ -232,7 +254,8 @@ export default {
     mating: [
       {
         name: 'Horizontal', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           series: [],
@@ -242,7 +265,8 @@ export default {
       },
       {
         name: 'Vertical', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           series: [],
@@ -252,7 +276,8 @@ export default {
       },
       {
         name: 'Right Angle', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           series: [],
@@ -262,7 +287,8 @@ export default {
       },
       {
         name: 'Stacking', 
-        active: false,
+        active: true,
+        chosen: false,
         filters: {
           type: [],
           series: [],

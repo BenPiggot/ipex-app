@@ -11,7 +11,7 @@ function updateFilterOption(state, data) {
   const { filterName, optionName } = data;
   const optionToUpdate = state[filterName].find(opt => opt.name === optionName)
   const updateIndex = state[filterName].findIndex(opt => opt.name === optionName)
-  const updatedOption = {...optionToUpdate, active: !optionToUpdate.active }
+  const updatedOption = {...optionToUpdate, chosen: !optionToUpdate.chosen }
   const filterToUpdate = state[filterName].filter(opt => opt.name !== optionName)
   const newFilter = Object.assign([], filterToUpdate)
   newFilter.splice(updateIndex, 0, updatedOption)
@@ -23,7 +23,10 @@ function updateOtherFilters(state, otherFiltersObject) {
     const optionsArray = otherFiltersObject[filter]
     state[filter].forEach(option => {
       if (optionsArray.includes(option.name)) {
-        option.active = !option.active
+        option.active = true
+      }
+      else {
+        option.active = false
       }
     })
   }
