@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import ActiveFilter from '../components/ActiveFilter';
+import Filter from '../components/Filter';
 
 import './AppContainer.css';
 
@@ -14,14 +15,14 @@ class AppContainer extends Component {
     }
   }
 
-  handleClick = (name) => {
+  setActiveFilter = (name) => {
     this.setState({ activeFilter: name })
   }
 
   renderFilters() {
     return Object.keys(this.props.filters).map(name => {
       return (
-        <div onClick={() => this.handleClick(name)} className="filter-header">{name}</div>
+        <Filter setActiveFilter={this.setActiveFilter} name={name} />
       )
     })
   }

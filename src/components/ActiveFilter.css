@@ -4,3 +4,11 @@
   padding: 10px;
   border: 1px solid grey;
 }
+
+.active-filter-container h4 {
+  text-transform: capitalize;
+}
+
+.filter-option-text {
+  cursor: pointer;
+}

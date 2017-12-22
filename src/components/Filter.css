@@ -1,0 +1,15 @@
+.filter-header {
+  display: inline-flex;
+  flex-direction: column;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.selected-option {
+  font-weight: normal;
+  text-transform: none;
+  font-size: 12px;
+  display: block;
+}
