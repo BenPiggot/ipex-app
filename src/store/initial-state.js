@@ -9,7 +9,7 @@ export default {
         {
           "active": true,
           "chosen": false,
-          "filters": ["36dab0bf-6fcb-475c-a551-55e3f62b70b7", "279de0e6-7a86-4fa6-8f20-afc6c6ca5f1a"],
+          "filters": ["90f76566-6909-4d24-9dd6-6966e28dfddf","36dab0bf-6fcb-475c-a551-55e3f62b70b7", "279de0e6-7a86-4fa6-8f20-afc6c6ca5f1a"],
           "id": "90f76566-6909-4d24-9dd6-6966e28dfddf",
           "name": "Micro-Coax"
         },
@@ -90,7 +90,7 @@ export default {
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["36dab0bf-6fcb-475c-a551-55e3f62b70b7", "279de0e6-7a86-4fa6-8f20-afc6c6ca5f1a"],
           "id": "36dab0bf-6fcb-475c-a551-55e3f62b70b7",
           "name": "0.250 To 1.250"
         },
@@ -171,7 +171,7 @@ export default {
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["279de0e6-7a86-4fa6-8f20-afc6c6ca5f1a"],
           "id": "279de0e6-7a86-4fa6-8f20-afc6c6ca5f1a",
           "name": "Horizontal"
         },

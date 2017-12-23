@@ -1,17 +1,24 @@
 import { UPDATE_FILTER_OPTION, REMOVE_SELECTED_OPTION } from '../constants';
 import isEmpty from 'lodash.isempty';
+import intersection from 'lodash.intersection';
+import values from 'lodash.values';
 
 function handleFilterUpate(state, data) {
   const option = state.categories[data.filterName].find(opt => opt.name === data.optionName) 
   const newState = updateFilterOption(state, data)
-  const newestState = updateOtherFilters(newState, option['filters'])
+  const availableOptions = isEmpty(state.selected) ? 
+    option['filters'] : 
+    intersection(option['filters'], ...values(state.selected))
+
+  const newestState = updateOtherFilters(newState, availableOptions)
   return newestState;
 }
 
 function handleRemoveOption(state, data) {
   const option = state.categories[data.filterName].find(opt => opt.name === data.optionName) 
   const newState = removeSelectedOption(state, data)
-  const newestState = updateOtherFilters(newState, option['filters'])
+  const availableOptions = intersection(...values(newState.selected))
+  const newestState = updateOtherFilters(newState, availableOptions)
   return newestState;
 }
 
