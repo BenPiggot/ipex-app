@@ -9,7 +9,7 @@ export default {
         {
           "active": true,
           "chosen": false,
-          "filters": ["90f76566-6909-4d24-9dd6-6966e28dfddf","36dab0bf-6fcb-475c-a551-55e3f62b70b7", "279de0e6-7a86-4fa6-8f20-afc6c6ca5f1a"],
+          "filters": ["90f76566-6909-4d24-9dd6-6966e28dfddf","a099a33a-c5da-48bc-a733-8ece97efbf8a","36dab0bf-6fcb-475c-a551-55e3f62b70b7", "279de0e6-7a86-4fa6-8f20-afc6c6ca5f1a"],
           "id": "90f76566-6909-4d24-9dd6-6966e28dfddf",
           "name": "Micro-Coax"
         },

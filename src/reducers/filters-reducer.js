@@ -18,6 +18,7 @@ function handleRemoveOption(state, data) {
   const option = state.categories[data.filterName].find(opt => opt.name === data.optionName) 
   const newState = removeSelectedOption(state, data)
   const availableOptions = intersection(...values(newState.selected))
+
   const newestState = updateOtherFilters(newState, availableOptions)
   return newestState;
 }
