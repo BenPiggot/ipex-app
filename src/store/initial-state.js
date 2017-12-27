@@ -16,28 +16,28 @@ export default {
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["98e2b39c-bbad-40a2-b3b2-60919e9e6c2c"],
           "id": "98e2b39c-bbad-40a2-b3b2-60919e9e6c2c",
           "name": "FPC/FFC"
         },
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["096c139f-474b-40d8-aefd-1fd28fddf4c7"],
           "id": "096c139f-474b-40d8-aefd-1fd28fddf4c7",
           "name": "Micro RF Coax"
         },
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["a099a33a-c5da-48bc-a733-8ece97efbf8a","90f76566-6909-4d24-9dd6-6966e28dfddf", "abc4fdb2-e32f-4daf-9fd1-7c165e5fd18a", "2f1eb4e8-38c6-4087-9449-66c453e5b361"],
           "id": "a099a33a-c5da-48bc-a733-8ece97efbf8a",
           "name": "Docking"
         },
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["4ba3aad4-447e-47c7-aa27-dea3b82a332a"],
           "id": "4ba3aad4-447e-47c7-aa27-dea3b82a332a",
           "name": "Board-To-Board"
         }
@@ -46,42 +46,42 @@ export default {
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["a099a33a-c5da-48bc-a733-8ece97efbf8a", "abc4fdb2-e32f-4daf-9fd1-7c165e5fd18a"],
           "id": "abc4fdb2-e32f-4daf-9fd1-7c165e5fd18a",
           "name": "Novastack"
         },
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["fdb99586-bd29-47d4-b0b5-427d5b6a5531"],
           "id": "fdb99586-bd29-47d4-b0b5-427d5b6a5531",
           "name": "MHF"
         },
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["dd55f78a-1264-4518-84d7-a8534fe354aa"],
           "id": "dd55f78a-1264-4518-84d7-a8534fe354aa",
           "name": "ISH"
         },
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["6fa98c28-0892-40ae-afab-531a39249fc0"],
           "id": "6fa98c28-0892-40ae-afab-531a39249fc0",
           "name": "Miniflex"
         },
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["9045d03c-a683-431a-9dfd-ad69ee49a3fe"],
           "id": "9045d03c-a683-431a-9dfd-ad69ee49a3fe",
           "name": "Cabline"
         },
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["8b5228de-7794-43cb-b6fd-386eba81af24"],
           "id": "8b5228de-7794-43cb-b6fd-386eba81af24",
           "name": "FPL"
         }
@@ -97,28 +97,28 @@ export default {
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["a099a33a-c5da-48bc-a733-8ece97efbf8a","2f1eb4e8-38c6-4087-9449-66c453e5b361"],
           "id": "2f1eb4e8-38c6-4087-9449-66c453e5b361",
           "name": "0.175 To 1"
         },
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["1740412d-1674-4586-8cf2-0179104b4998"],
           "id": "1740412d-1674-4586-8cf2-0179104b4998",
           "name": "1"
         },
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["91433a58-4adf-484b-afe8-7724920722be"],
           "id": "91433a58-4adf-484b-afe8-7724920722be",
           "name": "0.35 To 1"
         },
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["1d1d1f41-9772-430c-bd4a-35ad385acde7"],
           "id": "1d1d1f41-9772-430c-bd4a-35ad385acde7",
           "name": "0.4 To 2"
         }
@@ -127,42 +127,42 @@ export default {
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["a04b112e-aa4b-4843-aac2-1aaf10d8b2f8"],
           "id": "a04b112e-aa4b-4843-aac2-1aaf10d8b2f8",
           "name": "0.800 To 9.650"
         },
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["807778dd-0820-426b-9137-83b71782ee97"],
           "id": "807778dd-0820-426b-9137-83b71782ee97",
           "name": "0.55 To 6.3"
         },
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["5b579210-b830-4a3a-902b-f382235084b2"],
           "id": "5b579210-b830-4a3a-902b-f382235084b2",
           "name": "0.85 To 2.5"
         },
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["b49c390d-135d-42e2-92ff-6a0f1d8f40bc"],
           "id": "b49c390d-135d-42e2-92ff-6a0f1d8f40bc",
           "name": "11.1 To 12.505"
         },
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["0c1ce3f4-e384-44c6-a32d-11e5e432d0d6"],
           "id": "0c1ce3f4-e384-44c6-a32d-11e5e432d0d6",
           "name": "0.7 To 1.2"
         },
         {
           "active": true,
           "chosen": false,
-          "filters":[],
+          "filters":["8df0ad7e-7779-48ff-a1c0-cdd0a51bf38f"],
           "id": "8df0ad7e-7779-48ff-a1c0-cdd0a51bf38f",
           "name": "1.1 To 20.75"
         }
@@ -178,21 +178,21 @@ export default {
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["a64be78d-ae5d-4561-8018-b8bb65893f8c"],
           "id": "a64be78d-ae5d-4561-8018-b8bb65893f8c",
           "name": "Vertical"
         },
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["6859139d-bd35-4966-a829-b002cec93e28"],
           "id": "6859139d-bd35-4966-a829-b002cec93e28",
           "name": "Right Angle"
         },
         {
           "active": true,
           "chosen": false,
-          "filters": [],
+          "filters": ["017aa85e-9748-415a-9ad8-3b4a3a561fb0"],
           "id": "017aa85e-9748-415a-9ad8-3b4a3a561fb0",
           "name": "Stacking"
         }
