@@ -19,9 +19,10 @@ class ActiveFilter extends Component {
         {
           this.props.filters[this.props.name].map(option => {
             const active = option.active ? ' active' : '';
+            const chosen = option.chosen ? ' chosen' : ''
             return (
               <div 
-                className={`filter-option-text${active}`}
+                className={`filter-option-text${active}${chosen}`}
                 onClick={() => this.handleClick(option)}
               >
                 { option.name }

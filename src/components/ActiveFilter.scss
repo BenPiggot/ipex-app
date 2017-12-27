@@ -3,9 +3,10 @@
 }
 
 .filter-option-text {
-  cursor: pointer;
   margin-top: 5px;
   padding: 5px;
+  color: #ccc;
+  cursor: not-allowed;
 }
 
 .filter-column {
@@ -17,6 +18,11 @@
 }
 
 .active {
+  cursor: pointer;
+  color: black;
+}
+
+.chosen {
   background: lightblue;
   border: 1px solid #777;
 }
