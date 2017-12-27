@@ -1,11 +1,12 @@
 .active-filter-container h4 {
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .filter-option-text {
   margin-top: 5px;
   padding: 5px;
   color: #ccc;
+  text-transform: uppercase;
   cursor: not-allowed;
 }
 

@@ -13,9 +13,9 @@ class Filter extends Component {
   render() {
     return (
       <div className="filter-header">
-        <div onClick={() => this.props.setActiveFilter(this.props.name)}>
+        <h4 onClick={() => this.props.setActiveFilter(this.props.name)}>
           {this.props.name}
-        </div>
+        </h4>
         <div className="active-options">
         {
           this.props.filters[this.props.name].map(option => {

@@ -38,10 +38,11 @@ class AppContainer extends Component {
   render() { 
     return (
       <div>
+        <div className="selected-header">SELECTED FILTERS</div>
         <div className="filter-header-container">
           {this.renderFilters()}
         </div>
-        <div className="filter-by-header">FILTER BY</div>
+        <div className="filter-by-header">FILTER OPTIONS</div>
         <div className="active-filter-container">
           {this.renderActiveFilter()}
         </div>
