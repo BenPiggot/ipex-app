@@ -27,7 +27,7 @@ class AppContainer extends Component {
     })
   }
 
-  renderActiveFilter() {
+  renderActiveFilters() {
     return Object.keys(this.props.filters).map(name => {
       return (
         <ActiveFilter name={name} />
@@ -44,7 +44,7 @@ class AppContainer extends Component {
         </div>
         <div className="filter-by-header">FILTER OPTIONS</div>
         <div className="active-filter-container">
-          {this.renderActiveFilter()}
+          {this.renderActiveFilters()}
         </div>
       </div>
     )
