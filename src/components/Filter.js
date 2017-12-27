@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import { updateFilterOption, removeSelectedOption } from '../actions/filters-actions';
 
-import './Filter.css';
+import './Filter.scss';
 
 class Filter extends Component {
   handleClick = (optionName) => {
@@ -11,7 +11,6 @@ class Filter extends Component {
   }
 
   render() {
-    console.log(this.props.filters, this.props.name)
     return (
       <div className="filter-header">
         <div onClick={() => this.props.setActiveFilter(this.props.name)}>

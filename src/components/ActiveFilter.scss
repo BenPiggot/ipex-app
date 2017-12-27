@@ -1,0 +1,22 @@
+.active-filter-container h4 {
+  text-transform: capitalize;
+}
+
+.filter-option-text {
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.filter-column {
+  display: inline-flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 20%;
+}
+
+.active {
+  background: lightblue;
+  border: 1px solid #777;
+}

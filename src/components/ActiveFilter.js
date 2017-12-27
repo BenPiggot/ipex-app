@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import { updateFilterOption } from '../actions/filters-actions';
 
-import './ActiveFilter.css';
+import './ActiveFilter.scss';
 
 class ActiveFilter extends Component {
   handleClick = (option) => {
@@ -14,15 +14,14 @@ class ActiveFilter extends Component {
 
   render() {
     return (
-      <div className="active-filter-container">
+      <div className="filter-column">
         <h4>{ this.props.name }</h4>
         {
           this.props.filters[this.props.name].map(option => {
-            const color = option.active ? 'red' : 'black';
+            const active = option.active ? ' active' : '';
             return (
               <div 
-                className="filter-option-text"
-                style={{ color: color }} 
+                className={`filter-option-text${active}`}
                 onClick={() => this.handleClick(option)}
               >
                 { option.name }

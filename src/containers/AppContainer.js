@@ -4,14 +4,14 @@ import { connect } from 'react-redux';
 import ActiveFilter from '../components/ActiveFilter';
 import Filter from '../components/Filter';
 
-import './AppContainer.css';
+import './AppContainer.scss';
 
 class AppContainer extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      activeFilter: ''
+      activeFilter: 'type'
     }
   }
 
@@ -28,18 +28,23 @@ class AppContainer extends Component {
   }
 
   renderActiveFilter() {
-    if (this.state.activeFilter) {
+    return Object.keys(this.props.filters).map(name => {
       return (
-        <ActiveFilter name={this.state.activeFilter} />
+        <ActiveFilter name={name} />
       )
-    }
+    })
   }
 
   render() { 
     return (
       <div>
-        {this.renderFilters()}
-        {this.renderActiveFilter()}
+        <div className="filter-header-container">
+          {this.renderFilters()}
+        </div>
+        <div className="filter-by-header">FILTER BY</div>
+        <div className="active-filter-container">
+          {this.renderActiveFilter()}
+        </div>
       </div>
     )
   }
