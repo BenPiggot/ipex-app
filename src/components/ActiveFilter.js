@@ -7,7 +7,7 @@ import './ActiveFilter.scss';
 
 class ActiveFilter extends Component {
   handleClick = (option) => {
-    if (option.active) {
+    if (option.active && !option.chosen) {
       this.props.updateFilterOption(this.props.name, option.name)
     }
   }
