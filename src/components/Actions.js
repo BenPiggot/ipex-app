@@ -6,7 +6,9 @@ import './Actions.scss';
 
 class Actions extends Component {
   handleGetClick = () => {
-    this.props.getProducts()
+    const filters = Object.keys(this.props.filters.selected)
+    console.log(filters)
+    this.props.getProducts(filters)
   }
 
   handleClearClick = () => {
@@ -23,10 +25,16 @@ class Actions extends Component {
   }
 }
 
+const mapStateToProps = (state) => {
+  return {
+    filters: state.filters
+  }
+}
+
 const mapDispatchToProps = (dispatch) => {
   return {
-    getProducts() {
-      dispatch(getProducts())
+    getProducts(filters) {
+      dispatch(getProducts(filters))
     },
     clearProductList() {
       dispatch(clearProductList())
@@ -34,4 +42,4 @@ const mapDispatchToProps = (dispatch) => {
   }
 }
 
-export default connect(null, mapDispatchToProps)(Actions);
+export default connect(mapStateToProps, mapDispatchToProps)(Actions);

@@ -1,11 +1,9 @@
 import { GET_PRODUCTS, CLEAR_PRODUCT_LIST } from '../constants';
 import * as Api from '../api';
 
-export const getProducts = () => {
+export const getProducts = (filters) => {
   return dispatch => {
-    Api.getProducts().then(products => {
-      console.log(products)
-      debugger
+    Api.getProducts(filters).then(products => {
       dispatch({
         type: GET_PRODUCTS,
         products

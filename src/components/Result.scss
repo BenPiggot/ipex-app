@@ -5,7 +5,7 @@
   width: 80%;
 
   .result-details {
-    padding: 5px 10px;
+    padding: 5px 15px;
   }
 
   h5 {
@@ -13,5 +13,32 @@
     text-transform: uppercase;
     color: #777;
     font-weight: bold;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .result-links {
+    color: #444;
+    span {
+      font-size: 12px;
+      font-weight: bold;
+      padding-left: 10px;
+    }
+  }
+
+  .result-buttons {
+    text-align: center;
+    font-size: 12px;
+
+    .result-btn {
+      width: 100%;
+    }
+
+    a {
+      color: black;
+
+    }
   }
 }
