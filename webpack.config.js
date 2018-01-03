@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { ifProduction, ifDevelopment } = getIfUtils(process.env.NODE_ENV);
 
 module.exports = {
-  entry: './src/index',
+  entry: ['babel-polyfill', './src/index'],
   output: {
     path: path.resolve(__dirname, './public'),
     filename: 'bundle.js'
@@ -13,7 +13,12 @@ module.exports = {
   devServer: {
     publicPath: '/public',
     historyApiFallback: true,
-    contentBase: './'
+    contentBase: './',
+    proxy: {
+      '/api/**': {
+        target: 'http://localhost:8081'
+      }
+    }
   },
   module: {
     loaders: [

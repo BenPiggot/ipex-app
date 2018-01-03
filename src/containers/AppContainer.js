@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 
 import ActiveFilter from '../components/ActiveFilter';
 import Filter from '../components/Filter';
+import Actions from '../components/Actions';
+import ResultsContainer from './ResultsContainer';
 
 import './AppContainer.scss';
 
@@ -46,6 +48,8 @@ class AppContainer extends Component {
         <div className="active-filter-container">
           {this.renderActiveFilters()}
         </div>
+        <Actions />
+        <ResultsContainer /> 
       </div>
     )
   }
